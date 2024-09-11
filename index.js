@@ -10,7 +10,7 @@ let metas = ["Eduarda", "Maria", "Duda", "Ferreira"]
 
 console.log(metas[1] + " " + metas[0])*/
 
-//Objetos
+/*//Objetos
 let meta = {
     value: "ler um livro por mês",
     checked: true,
@@ -24,9 +24,19 @@ let metas = [
     }
 ]
 
-console.log(meta[1].value)
+console.log(meta[1].value)*/
 
 /*//function //arrow function
 const criarMeta = () => {}
 
 function criarMeta() {}*/
+
+function start(){
+    let count = 1
+    while(count <= 10){
+        console.log(count)
+        count = count + 1
+    }
+}
+
+start()
